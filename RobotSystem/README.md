@@ -34,20 +34,20 @@ void init_pins();
 
 int main()
 {
-wiringPiSetup();
-		init_pins();
-		while(1)
-		{
-			digitalWrite(1, HIGH);
-			delay(1000);
-			digitalWrite(1, LOW);
-			delay(500);
-		}
+	wiringPiSetup();
+	init_pins();
+	while(1)
+	{
+		digitalWrite(1, HIGH);
+		delay(1000);
+		digitalWrite(1, LOW);
+		delay(500);
+	}
 }
 
 void init_pins()
 {
-		pinMode(1, OUTPUT); //Pin 12, GPIO 18
+	pinMode(1, OUTPUT); //Pin 12, GPIO 18
 }
 ```
 
