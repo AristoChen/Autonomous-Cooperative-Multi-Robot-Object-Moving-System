@@ -35,5 +35,20 @@ $ ./configure
 $ make 
 $ sudo make install
 ```
+## Compile
 
+Use the following command to compile
+```sh
+g++ `pkg-config --libs opencv` -o TEST TEST.cpp -lzbar -std=c++11
+```
 
+## Execute
+Remember to enable the Raspberry Pi camera module before execute
+```sh
+$ sudo modprobe bcm2835-v4l2
+```
+
+then execute
+```sh
+./TEST
+```
