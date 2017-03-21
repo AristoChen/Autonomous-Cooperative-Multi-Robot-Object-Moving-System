@@ -4,11 +4,11 @@ ACMOS is designed to complete object-moving tasks assigned by humans, and withou
 
 This System contains ControlSystem and RobotSystem, and the following is the Architecture of the system
 
-![SystemArchitecture](http://imgur.com/LpifSns)
+![SystemArchitecture](http://i.imgur.com/LpifSns.jpg)
 
 The ControlSystem should be located at the top of the space as you can see in the following picture
 
-![SystemArchitecture(Physical)](http://imgur.com/0Z3DCnx)
+![SystemArchitecture(Physical)](http://i.imgur.com/0Z3DCnx.jpg)
 
 Each color refers to different role
  - Red : ControlSystem
